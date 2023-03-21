@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <h1>Register</h1>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name">
+            <label for="lastName">Apellido:</label>
+            <input type="text" id="lastName">
+            <label for="nacimiento">Fecha Nacimiento:</label>
+            <input type="date" id="nacimiento">
+            <label for="cedula">Cedula:</label>            
+            <input type="text" id="cedula">
+            <button id="submit">ENVIAR</button>
+        </div>
+        <div class="container-block">
+            <h2>happyBirthDay Validation</h2>
+            <div class="container-cumpleaños">
+                <div class="container-cumpleaños-nombre" id="cumpleaños">
+
+                </div>
+                <div class="container-cumpleaños-validation" id="validation_años">
+
+                </div>
+                
+            </div>
+            <div class="container-cumpleaños-search">
+                <input type="text" id="cedula_busqueda">
+                <img src="./images/326690_magnify_search_zoom_icon.png" alt="" id="search">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
